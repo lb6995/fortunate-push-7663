@@ -1,18 +1,29 @@
 #lower-navbar{
     display: flex;
-    height: 85px;
+    /* width: 100%; */
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 30px;
+    font-size: 12px;
+    height: 40px;
     padding-left: 80px;
     padding-right: 80px;
-    justify-content: space-between;
     align-items: center;
-}
+    text-align: center;
+    margin-top: 6px;
+    position: relative;
+    border: 1px solid rgb(206, 9, 9);
+} 
+
 #lower1 {
     display: flex; 
     gap: 30px;
+    width: 20px;
+    height: 20px;
 }
 #lower1 a {
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-weight: bold; 
     color: rgb(49, 48, 48);
 }
@@ -25,12 +36,12 @@
     gap: 30px;
 }
 button{
-    width: 200px;
     height: 40px;
     font-size: larger;
     font-weight: bold;
 }
 .vd-button1{
+    width: 200px;
     color: #eee;
     background-color: #ff5c35;
     border: none;
@@ -42,15 +53,14 @@ button{
     background-color: #ffcec2;
 }
 .vd-button2{
+    width: 200px;
     color: #ff5c35;;
     border: 1px solid #ff5c25;
     border-radius: 4px;
     font-family: "Lexend Deca", sans-serif;
-
 }
 .vd-button2:hover {
     background-color: #ffcec2;
-
 }
 .vd-software-dropdown-content{
     display: none;
@@ -67,7 +77,6 @@ button{
     display:grid;
     color: rgb(113, 147, 135)
 }
-
 .vd-resourse-dropdown-content{
     display: none;
     position:absolute;
@@ -107,11 +116,17 @@ button{
     margin: auto;
     align-items: center;
 }
+
+
+
+
+
 .vd-hub{
     width: 100%;
     height: 200px;
     cursor: pointer;
     align-items: center;
+    /* background-color: #eee; */
     border: 1px solid rgb(63, 13, 214);
     display: grid;
     grid-template-columns: 20% 80% ;
