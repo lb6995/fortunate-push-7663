@@ -23,8 +23,9 @@ let HomePage = () => {
     });
   
     if (flag == true) {
-      window.location.href = "index.html";
+      window.location.href = "./fortunate-push-7663/index.html";
     } else {
       alert("Please fill correct Details");
     }
   };
+  
