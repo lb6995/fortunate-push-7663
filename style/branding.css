@@ -1,7 +1,7 @@
 #vd-branding{
     /* width: 100%; */
     height: 670px;
-    background-color: orangered;
+    background-color: #ff5c35;
     align-items: center;
     display: grid;
     padding-left: 90px;
@@ -24,15 +24,19 @@
 }
 .vd-para1{
     margin-top: 1.25rem;
-    color: #eee;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+    font-size: 14px;
     font-weight: bold;
     margin: 30px 0px 20px 0px;
 }
 .vd-h1{
-    font-size: 3.75rem;
-    line-height: 1.13;
-    color: #eee;
+    font-family: 'Queens Medium', serif;
+    font-weight: 500;
+    line-height: 68px;
+    font-size:69px;
+    color: #ffffff;
 }
 .brandingBtn button{
     width: 240px;
@@ -40,18 +44,24 @@
     font-size: larger;
     font-weight: bold;
 }
-.button3{
-    background-color:aliceblue;
+.vd-button3{
+    background-color:#ffffff;
+    color: #2e475d;
+    font-family: 'Lexend Deca', sans-serif;
     border: none;
+    border-radius: 4px;
 }
-.button3:hover {
-    background-color: rgb(250, 210, 190);
+.vd-button3:hover {
+    background-color: #ffcec2;
+
 }
-.button4{
+.vd-button4{
+    background-color: #ff5c35;
     color: #eee;
-    background-color:orangered;
-    border: 1px solid #eee;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
 }
-.button4:hover {
-    background-color: rgb(185, 68, 10);
+.vd-button4:hover {
+    background-color: #dd3004;
 }

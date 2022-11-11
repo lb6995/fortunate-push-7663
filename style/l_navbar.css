@@ -30,22 +30,27 @@ button{
     font-size: larger;
     font-weight: bold;
 }
-.button1{
+.vd-button1{
     color: #eee;
-    background-color: orangered;
+    background-color: #ff5c35;
     border: none;
+    font-family: "Lexend Deca", sans-serif;
+    border-radius: 4px;
 }
 
-.button1:hover {
-    background-color: rgb(212, 118, 72);
+.vd-button1:hover {
+    background-color: #ffcec2;
 }
-.button2{
-    color: orangered;
-    background-color: #eee;
-    border: 1px solid orangered;
+.vd-button2{
+    color: #ff5c35;;
+    border: 1px solid #ff5c25;
+    border-radius: 4px;
+    font-family: "Lexend Deca", sans-serif;
+
 }
-.button2:hover {
-    background-color: rgb(235, 173, 142);
+.vd-button2:hover {
+    background-color: #ffcec2;
+
 }
 .vd-software-dropdown-content{
     display: none;
