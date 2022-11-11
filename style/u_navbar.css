@@ -7,6 +7,7 @@ button{
 
  #vd-upper-navbar{
     display: flex;
+    /* width: 100%; */
     text-decoration: none;
     font-family: "Lexend Deca", sans-serif;
     line-height: 30px;
