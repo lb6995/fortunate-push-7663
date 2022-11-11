@@ -46,8 +46,14 @@ input[type=text]{
    border: 1px solid #CBD6E2;
 }
 
+input[type=password]{
+  width: 425px;
+ height:40px ;
+ background-color: #F5F8FA;
+ border: 1px solid #CBD6E2;
+}
 
-.pc_btn{
+#pc_Sbtn{
 width:433px ;
 height: 40px;
 border: none;
