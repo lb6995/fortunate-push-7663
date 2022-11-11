@@ -80,6 +80,7 @@ body {
             font-weight: 600;
             cursor: pointer;
             font-size: 15px;
+            margin-top: px;
           }
           #pc_label_checkbox{
            display: inline; 
@@ -92,13 +93,58 @@ body {
             /* vertical-align: middle; */
         
           }
-          hr{
-            width:30%;
-            margin: auto;
-          }
+        
           #pc_a{
             font-weight: 600;
             color:#008095;
             text-decoration: none;
           }
-        
+    /* #pc_goggle{
+      display: flex;
+      /* justify-content: center; */
+      /* padding-top: 20px;
+      margin-left: 35%;
+    } */ 
+          /* #pc_goggle_img{
+            width: 1.8%;
+          } */
+        #pc_btn2{
+          width:433px ;
+          height: 40px;
+          border: none;
+display: block;
+color: white;
+          font-size: 15px;
+          background-color:  #5886D4;
+          border-radius: 5px;
+          margin-left: 35%;
+         margin-top: 20px;
+        }
+
+        #pc_btn3{
+          color: white;
+          font-size: 15px;
+          width:433px ;
+          height: 40px;
+          border: none;
+display: block;
+         
+          background-color: #425B76;
+          border-radius: 5px;
+          padding: 11px 24px 11px 24px;
+          margin-left: 35%;
+          margin-top: 20px;
+        }
+        #pc_copyright{
+         color: #33475B; 
+         font-size: 12px;
+         /* text-align: center; */
+         margin-top: 50px;
+         margin-left: 44%;
+        }
+        #pc_policy{
+          font-size: 12px;
+          color: #5886D4;
+          margin-left: 50%;
+      
+        }
