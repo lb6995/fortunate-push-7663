@@ -8,20 +8,20 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-   
+    border: 1px solid red;
     width: 90%;
     margin-top: 100px;
     height: 440px;
   }
   #mw_pic {
     margin: auto;
-   
+    border: 1px solid blue;
     width: 48%;
     height: 98%;
   }
   #mw_content {
     margin: auto;
-    
+    border: 1px solid green;
     width: 48%;
     height: 98%;
   }
@@ -68,7 +68,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 90px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   #mw_sponsers > img {
     width: 9%;
@@ -78,7 +78,7 @@
   #mw_spn {
     margin: auto;
     margin-left: 45%;
-    margin-top: 90px;
+    margin-top: 60px;
   }
   #mw_video{
     margin-left: 40px;
@@ -88,7 +88,7 @@
     height: 300px;
     display: flex;
     flex-direction: row;
-    
+    border:1px solid red;
     justify-content: center;
     align-items: center;
   }
@@ -97,7 +97,7 @@
    height: 100%;
   }
   #mw_embed{
-   
+    border: 1px solid red;
     width: 40%;
     height: 300px;
     display: flex;
@@ -325,31 +325,30 @@ text-align:center;
   display: grid;
   width: 80%;
   height: 700px;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
  
 }
-#mw_below_video1,#mw_below_video2{
+#mw_below_video1,#mw_below_video2,#mw_below_video3{
   display: grid;
   justify-content: center;
   align-items: center;
   width: 95%;
   height: 65%;
   margin: auto;
- 
   grid-template-columns: repeat(1,1fr);
   grid-template-rows: repeat(2,1fr);
 }
 #mw_below_video1>div:nth-child(1){
   
   margin: auto;
-  width: 98%;
+  width: 90%;
   height: 100%;
   padding: 10px;
 }
 #mw_below_video1>div:nth-child(2){
 
   margin: auto;
-  width: 98%;
+  width: 90%;
   height: 30%;
   margin-bottom: 70%;
   display: grid;
@@ -365,31 +364,52 @@ text-align:center;
 #mw_below_video2>div:nth-child(1){
   
   margin: auto;
-  width: 98%;
+  width: 90%;
   height: 100%;
   padding: 10px;
   
 }
+#mw_below_video3>div:nth-child(1){
+  
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    
+  }
 #mw_below_video2>div:nth-child(2){
   
   margin: auto;
-  width: 98%;
+  width: 90%;
   height: 30%;
   margin-bottom: 70%;
   display: grid;
   justify-content: center;
   align-items: center;
 }
-
+#mw_below_video3>div:nth-child(2){
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    margin-bottom: 70%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
 #mw_below_video2>div:nth-child(2)>img{
   width: 30%;
+  margin: auto;
+}
+
+#mw_below_video3>div:nth-child(2)>img{
+    width: 30%;
   margin: auto;
 }
 #mw_getstarteddown{
   width: 65%;
   margin: auto;
   height: 160px;
-  
+  border:1px solid red;
   margin-top: 200px;
   display: grid;
   text-align: center;
@@ -408,52 +428,31 @@ text-align:center;
   border: 1px solid #ff5c35;
   border-radius: 3px;
 }
-.mw_gray2{
+#mw_gray2{
   width: 100%;
   height: 1500px;
   background-color: #f6f9fc;
   margin-top: 2500px;
   margin-left: -10px;
   text-align: center;
- 
+  display: grid;
   
 }
-.mw_faq{
+#mw_faq{
   margin: auto;
   display: grid;
   width: 80%;
   height: auto;
   border:1px solid red;
+  grid-template-columns: repeat(2,1fr);
   gap:20px;
-  position: static;
-}
-.mw_faqhead{
-  border:1px solid blue;
-  position: static;
-  padding: 10px;
-}
-.mw_faqhead::before{
-  position: static; 
   
 }
-
-
-.mw_content{
-  position: static;
-  transition: 0.5s;
-  border:1px solid green;
-  height: 0;
-  overflow: hidden;
-}
-
-.mw_gray2.mw_faq.active.mw_content{
-  height: auto;
-  padding: 10px;
-}
-.mw_faq>div{
+#mw_faq>div{
   border: 1px solid rgb(11, 16, 92);
   background-color: white;
   text-align: center;
+  
 }
 
 
@@ -475,6 +474,7 @@ text-align:center;
   margin: auto;
   width: 70%;
   height: 30%;
+  border: 1px solid white;
   margin-top: 70px;
 }
 #mw_slidehead>h1{
@@ -489,9 +489,10 @@ text-align:center;
 #mw_slidecontent{
   margin: auto;
   display: grid;
-  width: 90%;
-  grid-template-columns: repeat(5,1fr);
+  width: 70%;
+  grid-template-columns: repeat(3,1fr);
   gap:20px;
+
 }
 #mw_slidecontent>div{
   text-align: center;
@@ -510,24 +511,4 @@ text-align:center;
 #mw_slidecontent>div>img{
   margin-top: 10px;
   width: 8%;
-}
-.mw_slideimage{
-  width: 10%;
-}
-.mw_prev{
-  width: 25%;
-  height: 45%;
-  margin-top: 40%;
-  margin-left: 50%;
-  background-color: transparent;
-  border: none;
-}
-.mw_next{
-  width: 25%;
-  height: 45%;
-  margin-top: 40%;
-  margin-left: 40%;
-  
-  background-color: transparent;
-  border: none;
 }
