@@ -7,7 +7,7 @@
     background-color: #213343;
     font-size: 16px;
 } 
-#vd-footer > #vd-footer1{
+#vd-footer1{
     width: 100%;
     height: 410px;
     margin: 0 0 26px 0;
@@ -16,6 +16,7 @@
 .vd-footer11{
     width: 38%;
     height: 100%;
+    border-right: #b6c7d6 solid 1px;
 }
 .vd-footer-heading{
     color:#ffffff;
@@ -80,6 +81,7 @@
     align-items: center;
     display: flex;
     margin: auto;
+    margin-top: 20px;
     gap:30px;
     padding-left: 0px;
     padding-right: 0px;
@@ -87,9 +89,10 @@
 #vd-footer2 > div > div{
     width: 40px;
     height: 40px;
+    
 }
 #vd-footer2 img{
-    width:100%
+    width:80%
 }
 #vd-footer3{
     margin-top: 40px;
