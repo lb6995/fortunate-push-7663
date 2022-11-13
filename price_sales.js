@@ -2,7 +2,6 @@ import {lbnav1} from "./components/lbnav1.js"
 let lbnav1_div=document.getElementById("lbnav1")
 lbnav1_div.innerHTML=lbnav1()
 
-
 let plus=document.querySelector(".plus")
 let minus=document.querySelector(".minus")
 let num=document.querySelector(".num")

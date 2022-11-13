@@ -594,12 +594,16 @@ text-align:center;
   grid-template-rows: 600px;
   gap:20px;
   
+  height: 500px
+  
   }
 #mw_slidehead{
   margin: auto;
   width: 70%;
-  height: 30%;
+  height: 10%;
   margin-top: 70px;
+  
+  
 }
 #mw_slidehead>h1{
   color: white;
@@ -613,6 +617,9 @@ text-align:center;
 #mw_slidecontent>div{
   text-align: center;
   background-color: white;
+  
+  height: 400px;
+ 
 }
 #mw_slidecontent>div>h1{
   text-align: center;

@@ -78,7 +78,7 @@ body{
 }
 #variation>div{
   padding: 22px 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 90%;
   text-align: center;
 }
@@ -88,13 +88,13 @@ body{
   font-size: 14px;
   text-decoration:none ;
 }
-#variation>div:hover{
+/* #variation>div:hover{
   cursor: pointer;
   padding: 22px 0;
   border-bottom: 5px solid #0b4553;
   color: #167A92;
   background-color: rgb(229, 245, 248);
-}
+} */
 #variation>div>a:hover{
   color: gray;
 }
@@ -131,7 +131,7 @@ padding-top: 60px;
 
 }
 #lblanding2{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 90%;
   display: flex;
   height: 350px;
@@ -139,7 +139,7 @@ padding-top: 60px;
   gap: 10px;
 }
 #lblanding2>div{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 20%;
  }
 #bottombtn{
@@ -251,88 +251,105 @@ i{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
+
+
+/* ********************************day3*************************** */
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+} */
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background:rgb(145, 151, 153);
+} */
 .accordion{
-  /* max-width: 800px; */
-  width: 70%;
-  margin-top: 80px;
-  margin: auto;
+ /* max-width: 800px; */
+ width: 70%;
+ margin-top: 80px;
+ margin: auto;
+ /* border: 1px solid red; */
+ margin-top: 50px;
+}
+.accordion>h1{
+  text-align: center;
+}
+
+.accordion .contentbx{
+  position: static;
+  margin: 10px 20px; 
+}
+.accordion .contentbx .label{
+  padding: 10px;
+  position: static;
+  /* position: relative; */
+  border: 1px solid gray;
+  border-bottom: none;
+  padding-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  background: white;
+  
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.label:hover{
+  color: #007A8C;
+}
+
+.accordion .contentbx .label::before{
+  content: ">";
+  position:static;
+  /* top: 35%; */
+  /* right: 10px; */
+  padding-right: 17px;
+  
+  
+  
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #007A8C
+}
+.accordion .contentbx.active .label::before{
+  content: "⌵";
+  
+  
+}
+.accordion .contentbx .content{
+  /* position: relative; */
+  position: static;
+  /* padding: 10px; */
+  background-color: white;
+  border: 1px solid gray;
+  border-top: none;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  
+}
+.content>p{
+  text-align: left;
+  padding-left: 20px;
+}
+.accordion .contentbx.active .content{
+  height: auto;
+  padding: 10px;
+}
+.accordion>h5{
+  text-align: center;
+}
+
+#lblanding_last{
   /* border: 1px solid red; */
-  margin-top: 50px;
- }
- .accordion>h1{
-   text-align: center;
- }
- 
- .accordion .contentbx{
-   position: static;
-   margin: 10px 20px; 
- }
- .accordion .contentbx .label{
-   padding: 10px;
-   position: static;
-   /* position: relative; */
-   border: 1px solid gray;
-   border-bottom: none;
-   padding-left: 10px;
-   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-   background: white;
-   
-   cursor: pointer;
-   font-weight: bold;
- 
- }
- .label:hover{
-   color: #007A8C;
- }
- 
- .accordion .contentbx .label::before{
-   content: ">";
-   position:static;
-   /* top: 35%; */
-   /* right: 10px; */
-   padding-right: 17px;
-   
-   
-   
-   transform: translateY(-50%);
-   font-size: 1em;
-   color: #007A8C
- }
- .accordion .contentbx.active .label::before{
-   content: "⌵";
-   
-   
- }
- .accordion .contentbx .content{
-   /* position: relative; */
-   position: static;
-   /* padding: 10px; */
-   background-color: white;
-   border: 1px solid gray;
-   border-top: none;
-   height: 0;
-   overflow: hidden;
-   transition: 0.5s;
-   
- }
- .content>p{
-   text-align: left;
-   padding-left: 20px;
- }
- .accordion .contentbx.active .content{
-   height: auto;
-   padding: 10px;
- }
- .accordion>h5{
-   text-align: center;
- }
- 
- #lblanding_last{
-   /* border: 1px solid red; */
-   margin-top: 120px;
- }
- #lblanding_last>h1{
-   text-align: center;
-   padding-bottom: 20px;
- }
- 
+  margin-top: 120px;
+}
+#lblanding_last>h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+

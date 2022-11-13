@@ -67,7 +67,6 @@ body{
     border-bottom: 1px solid #E5E2DE;
     
     
-    
   }
   #variation>div{
     padding: 22px 0;
@@ -91,13 +90,13 @@ body{
   #variation>div>a:hover{
     color: gray;
   }
+
 .lbmarketinghub{
     width: 80%;
     height: 100px;
     /* border: 1px solid red; */
     margin: auto;
     margin-bottom: 20px;
-    
 }
 .lbmarketinghubchild1{
     width: 100%;

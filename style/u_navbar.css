@@ -7,6 +7,7 @@ button{
 
  #vd-upper-navbar{
     display: flex;
+    /* width: 100%; */
     text-decoration: none;
     font-family: "Lexend Deca", sans-serif;
     line-height: 30px;
@@ -113,18 +114,3 @@ button{
     display:grid;
     color: #0b8484;
 }  
-
-/* #contact {
-    width: 100%;
-    height: 100%;
-    background: url("https://cdn-icons-png.flaticon.com/512/1067/1067566.png") no-repeat center;
-    background-size: 50%;
-    margin: 50px;
-} */
-/* #contact:hover { */
-    /* width: 100%; */
-    /* height: 100%; */
-    /* background: url("https://cdn-icons-png.flaticon.com/512/1067/1067617.png") no-repeat center;
-    background-size: 50%;
-} */
-

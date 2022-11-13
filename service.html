@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Service</title>
-    <link rel="stylesheet" href="./service.css" />
+    <link rel="stylesheet" href="./software/service.css" />
+    <link rel="stylesheet" href="./style/u_navbar.css" />
+    <link rel="stylesheet" href="./style/l_navbar.css" />
+    <link rel="stylesheet" href="./style/vd-footer.css" />
   </head>
   <body>
+    <!-- navbar -->
+    <div id="vd-navbar">
+      <div id="vd-upper-navbar"></div>
+
+      <div id="lower-navbar"></div>
+    </div>
+    <!-- navbar end -->
     <div id="mw_main">
       <div id="mw_pic">
         <img
@@ -561,9 +571,13 @@ For more advanced implementation, like ad tracking or SEO, it may take slightly 
       </div>
     </div>
     <div id="mw_slidecontent"></div>
+   
+    <div id="vd-footer"></div>
   </body>
 </html>
+<script type="module" src="./src/index.js"></script>
 <script>
+  
   let images = [
     "https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg",
     "https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg",
