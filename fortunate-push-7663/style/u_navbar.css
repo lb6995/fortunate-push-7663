@@ -5,21 +5,27 @@ button{
     cursor: pointer;
 }
 
-#upper-navbar{
+ #vd-upper-navbar{
     display: flex;
+    /* width: 100%; */
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 30px;
+    font-size: 12px;
     height: 40px;
     padding-left: 80px;
     padding-right: 80px;
     align-items: center;
+    text-align: center;
     margin-top: 6px;
     position: relative;
 }
-.upper1 {
+.vd-upper1 {
     display: flex; 
     width: 30%;
     gap: 30px;
-}
-.upper2 {
+} 
+.vd-upper2 {
     display:flex; 
     justify-content: end;
     gap: 30px; 
@@ -27,15 +33,14 @@ button{
     width: 70%;
 }
  .vd-language-dropdown a{
-    text-decoration: none;;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+    color: #ffffff;
+    font-weight:600;
 }
 .vd-language-dropdown a:hover{
-    color: rgb(113, 147, 135);
+    color: #0b8484;
+    background-color: #ffffff;
     text-decoration: underline;
 }
 .vd-language-dropdown a{
@@ -43,6 +48,10 @@ button{
 }
 .vd-language-dropdown-content{
     display: none;
+    font-weight: 600;
+    line-height: 21px;
+    height: 29*6px;
+    width: 97px;
     position: absolute;
     text-align: center;
     background-color: #ffffff;
@@ -53,44 +62,40 @@ button{
 }
 .vd-language-dropdown:hover .vd-language-dropdown-content {
     display:grid;
-    color: rgb(113, 147, 135)
+    color: #0b8484;
 } 
 .vd-contact-sales a{ 
     text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
     color: rgb(49, 48, 48);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
 }
 .vd-contact-sales img {
     width: 9%;
 }
 .vd-contact-sales a:hover{
-    color: rgb(113, 147, 135);
+    color: #0b8484;
     text-decoration:underline;
 }
 .globe{
     width: 9%;
 }
-.upper2 a,input{
+.vd-upper2 a,input{
     color: rgb(49, 48, 48);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
     text-decoration: none;
+    font-weight:600;
+
 }
-.upper2 a:hover{
-    color: rgb(113, 147, 135);
+.vd-upper2 a:hover{
+    color: #0b8484;
     text-decoration:underline;
 }
 .vd-about-dropdown a{
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
-    font-weight: bold;
     display: inline-block;
 }
 .vd-about-dropdown a:hover{
-    color: rgb(113, 147, 135);
+    color: #0b8484;
     text-decoration: underline;
 }
 .vd-about-dropdown a{
@@ -101,26 +106,11 @@ button{
     position:absolute;
     text-align: center;
     background-color: #ffffff;
-    min-width: 0px;
+    min-width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .vd-about-dropdown:hover .vd-about-dropdown-content {
     display:grid;
-    color: rgb(113, 147, 135)
-}
-
-/* #contact {
-    width: 100%;
-    height: 100%;
-    background: url("https://cdn-icons-png.flaticon.com/512/1067/1067566.png") no-repeat center;
-    background-size: 50%;
-    margin: 50px;
-} */
-/* #contact:hover { */
-    /* width: 100%; */
-    /* height: 100%; */
-    /* background: url("https://cdn-icons-png.flaticon.com/512/1067/1067617.png") no-repeat center;
-    background-size: 50%;
-} */
-
+    color: #0b8484;
+}  
